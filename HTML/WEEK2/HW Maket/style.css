@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+    max-width: 1321px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    padding: 50px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.links a{
+    margin: 40px;
+}
+.inpt{
+    display: flex;
+    justify-content: flex-end;
+}
+
+input {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.block{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block1 {
+    margin: 20px 15px 0 15px;
+    color: white;
+}
+
+.block1 h2 {
+    font-size: 80px;
+    line-height: 84px;
+}
+
+.block1 p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 39px;
+}
+
+.block1 button {
+    width: 200px;
+    height: 55px;
+   background-color:  #5454D4;
+}
+
+.minitext{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    color: white;
+}
+ .minitext h1{
+    width: 695px;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.glv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.glvtext {
+    margin: 40px 50px;
+    color: #FFFFFF;
+    width: 280px;
+    height: 215px;
+    text-align: center;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigimages {
+    display: flex;
+    justify-content: center;
+    margin: 130px 50px 0 50px  ;
+}
+
+.bottomtext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.bottomtext h1 {
+    font-size: 85px;
+}
+
+.bottomtext button {
+    color: white;
+    margin-top: 175px;
+    width: 201px;
+    height: 51px;
+    background-color:#5454D4;
+}
+
+.end-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.end-logo a {
+    color: #FFFFFF;
+}
+
+.end-logo p {
+    color: #FFFFFF;
+}
+footer {
+    margin-top: 90px;
+}

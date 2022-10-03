@@ -1,0 +1,129 @@
+/* :hoveer - Отрабатывает при наведении */
+/* div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: beige;
+}
+div:hover {
+    background-color: blue;
+    transition: 2s;
+} */
+
+/* Псевдо классы для ссылок */
+/* :visited */
+a:visited {
+    color: goldenrod;
+}
+
+/* a:active */
+a:active{
+    color: black;
+}
+
+.block{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+
+.block:active {
+    background-color: teal;
+}
+
+/* First-child */
+
+ul{
+    list-style-type: none;
+}
+
+/* div{
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+} */
+
+li:first-child > div{
+    background-color: deeppink;
+}
+
+/* ntn - child */
+li:nth-child(2) > div{ 
+    background-color: aqua;
+}
+
+/* :last-child */
+li:last-child > div {
+    background-color: cornflowerblue;
+}
+
+/* Focus */
+/* input{
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: fuchsia;
+    transition: 0.8s;
+}
+
+input:focus {
+    background-color: darkturquoise;
+    transition: 0.8s;
+} */
+
+/* :not */
+.div-1, 
+.div-2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+div:not(.div-2){
+    background-color: yellow;
+}
+
+/* vallid invalid */
+input:valid {
+    background-color: red;
+}  
+
+input:invalid {
+    background-color: aqua;
+}
+
+/* Псевоэлементы */
+h1::before{
+    content: "JS27";
+}
+
+h1::after{
+    content: "JS";
+}
+
+/* selection */
+p::selection{
+    color: red;
+    background-color: black;
+}
+
+/* first-letter, first-line */
+h2::first-letter{
+    color: red;
+    font-size: 50px;
+}
+/* first-line */
+p::first-line{
+    color:mediumspringgreen;
+    
+}
